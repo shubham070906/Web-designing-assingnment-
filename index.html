@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Delight - Authentic Indian Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Spice Delight</h1>
+                <p>Authentic Indian Cuisine</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Experience the Taste of India</h2>
+            <p>Authentic flavors crafted with traditional spices and modern techniques</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="special" class="special-dishes">
+        <h2 class="section-title">Our Specialties</h2>
+        <div class="dishes-container">
+            <div class="dish-card">
+                <img src="kadai paneer.jpeg" alt="Kadai Paneer ">
+                <h3>Kadai Paneer</h3>
+                <p>Tender chicken in a creamy tomato sauce with aromatic spices</p>
+            </div>
+            <div class="dish-card">
+                <img src="Hyderabadi Veg Biryani.jpeg" alt="Hyderabadi Veg Biryani">
+                <h3>Hyderabadi Veg Biryani</h3>
+                <p>Fragrant basmati rice cooked with succulent meat and exotic spices</p>
+            </div>
+            <div class="dish-card">
+                <img src="Paneer Tikka.jpeg" alt="Paneer Tikka">
+                <h3>Paneer Tikka</h3>
+                <p>Marinated cottage cheese grilled to perfection in tandoor</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="menu-tabs">
+            <button class="tab-btn active" data-category="starters">Starters</button>
+            <button class="tab-btn" data-category="mains">Main Course</button>
+            <button class="tab-btn" data-category="breads">Breads</button>
+            <button class="tab-btn" data-category="desserts">Desserts</button>
+        </div>
+        <div class="menu-items-container">
+            <!-- Items will be loaded via JavaScript -->
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2 class="section-title">Our Story</h2>
+            <p>Founded in 2005, Spice Delight brings authentic Indian flavors to your table. Our chefs combine traditional recipes with modern techniques to create unforgettable dining experiences.</p>
+            <p>We source our spices directly from India and use only the freshest ingredients to ensure every dish is bursting with flavor.</p>
+            <div class="chef-profile">
+                <img src="chef.jpeg" alt="Head Chef">
+                <div>
+                    <h3>Chef Shardha Kapoor</h3>
+                    <p>With over 20 years of experience, Chef Rajesh brings authentic flavors from his hometown in Punjab.</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="Restaurant Interior.jpeg" alt="Restaurant Interior">
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Visit Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Spice Street, Food District, NY 10001</p>
+                <p><i class="fas fa-phone"></i> (212) 555-1234</p>
+                <p><i class="fas fa-envelope"></i> info@spicedelight.com</p>
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+                <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Reserve a Table</h3>
+                <form id="reservation-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="time" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" placeholder="Number of Guests" min="1" required>
+                    </div>
+                    <button type="submit" class="btn">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Spice Delight</h2>
+                <p>Authentic Indian Cuisine Since 2005</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe for updates and special offers</p>
+                <form>
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Spice Delight. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
